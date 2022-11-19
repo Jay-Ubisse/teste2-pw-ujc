@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <h1>Registro de estudantes</h1>
+    <form id="form">
+        <section>
+            <div>
+                <label for="studentNumber">Numero de esudante</label>
+                <input type="number" name="studentNumber" class="required" required>
+            </div>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" class="required" required>
+            </div>
+            <div>
+                <label for="gender">Sexo</label>
+                <select name="gender" class="required" required>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                </select>
+            </div>
+            <div>
+                <label for="school">Faculdade</label>
+                <input type="text" name="school" class="required" required>
+            </div>
+            <div>
+                <label for="course">Curso</label>
+                <input type="text" name="course" class="required" required>
+            </div>
+            <div>
+                <label for="class">Turma</label>
+                <input type="text" name="class" class="required" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" class="required" required>
+            </div>
+            <div>
+                <label for="cell">Telefone</label>
+                <input type="text" value="+258" size="4" disabled>
+                <input type="number" name="cell">
+            </div>
+            <div>
+                <label for="birth">Data de nascimento</label>
+                <input type="date" name="birth" class="required" required>
+            </div>
+            <div>
+                <label for="adress">Morada</label>
+                <input type="text" name="adress" class="required" required>
+            </div>
+            <div id="submit">
+                <input type="submit" value="Submeter" onclick="runScript()">
+            </div>
+            <div id="popup">
+                <section>
+                    <div id="buttonArea">
+                        <button onclick="closePopup()">Fechar</button>
+                    </div>
+                    <div id="messageArea">
+                        
+                    </div>
+                </section>
+            </div>
+        </section>
+    </form>
+</body>
+</html>

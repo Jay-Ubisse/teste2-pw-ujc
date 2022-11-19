@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #e9ecef;
+}
+body > h1 {
+    width: fit-content;
+    margin: 15px auto;
+}
+form {
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px 0 0 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+form > section {
+    width: fit-content;
+    margin: 20px auto;
+}
+form > section > div {
+    margin: 10px 0;
+}
+form > section > div > label {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: large;
+    color: #3c77ab;
+}
+form > section > div > input, form > section > div > select {
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #35523d;
+    padding: 10px 34px;
+    background-color: #f0e8c9;
+}
+form > section > div > input:focus {
+    outline: none;
+}
+form > section > div#submit {
+    width: fit-content;
+    margin: 40px auto 0 auto;
+}
+form > section > div#submit > input {
+    font-weight: 600;
+    margin: 5px 10px;
+    background-color: #0077b6;
+    color: white;
+}
+#popup {
+    width: 50%;
+    margin: 20px auto;
+    color: #ffffff;
+    display: none;
+    padding: 10px 10px;
+
+}
+#popup > section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#buttonArea {
+    width: fit-content;
+}
+#messageArea {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+}
